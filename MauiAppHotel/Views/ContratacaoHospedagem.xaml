@@ -70,11 +70,12 @@
                     </VerticalStackLayout>
                 </Frame>
                 <VerticalStackLayout Spacing="10">
-                <Button Text="Avançar"
+                <Button Text="Avançar" Clicked="Button_Clicked"
                         BackgroundColor="{StaticResource Primary}"
-                        TextColor="White"/>
-                <Button Text="Sobre"
-                        
+                        TextColor="White"
+                        HorizontalOptions="Center"/>
+                <Button Text="Sobre" Clicked="Button_Clicked_1"
+                        HorizontalOptions="Center"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White"/>
                 </VerticalStackLayout>
