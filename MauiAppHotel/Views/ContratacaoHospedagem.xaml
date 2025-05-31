@@ -17,7 +17,7 @@
             TextColor="{StaticResource Primary}"/>
 
         <Frame Padding="10">
-            <VerticalStackLayout HorizontalOptions="Center">
+            <VerticalStackLayout HorizontalOptions="Center" Spacing="20">
                 <Grid RowDefinitions="Auto, Auto"
                       ColumnDefinitions="*, *, 2*">
 
@@ -55,7 +55,9 @@
                 <Frame Padding="10"
                        Margin="10">
                     <VerticalStackLayout Spacing="10">
-                        <Label Text="Período da Estadia"/>
+                        <Label Text="Período da Estadia"
+                               TextTransform="Uppercase" />
+
 
                         <HorizontalStackLayout Spacing="10">
                             <Label Text="Check-in"/>
